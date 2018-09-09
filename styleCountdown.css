@@ -1,10 +1,9 @@
 body{
-  background: #282e3a;
   font-family: tahoma;
   margin: 0;
 }
 h1{
-  color: #fff;
+  color: #6495ED;
   text-align: center;
   font-size: 45px;
   letter-spacing: 20px;
@@ -31,16 +30,16 @@ h1{
 
 }
 #clock span:nth-child(1){
-  background: #fa5559;
+  background: #708090;
 }
 #clock span:nth-child(2){
-  background: #26c2b9;
+  background: #708090;
 }
 #clock span:nth-child(3){
-  background: #f6bc58;
+  background: #708090;
 }
 #clock span:nth-child(4){
-  background: #2dcb74;
+  background: #708090;
 }
 #clock:after{
   content: "";
