@@ -18,7 +18,7 @@
 
           
 
-	<title>Computer Science | IAU</title>
+	<title>Computer Science | AIU</title>
 
 
 
@@ -38,7 +38,8 @@
 
 	<link rel="stylesheet" type="text/css" href="css/nivo-theme.css"/>	
 
-    <link href="styleCountdown.css" rel="stylesheet" type="text/css" /> <!--countdown-->
+    <link rel="stylesheet" href="flipclock.css">
+
 
 
 </head>
@@ -49,17 +50,10 @@
 
     <div id="container">
 
-  <div id="del-countdown">
-      <h1><b>Mid-Terms</b></h1>
-      <div id="clock"></div>
-      <div id="units">
-        <span>Days</span>
-        <span>Hours</span>
-        <span>Minutes</span>
-        <span>Seconds</span>
-      </div>
+    <div class="back" style="background-color: red;">    
+    <div class="clock" style="margin:1em"></div>
+    <div class="message"></div>
     </div>
-
 
     <!-- HEADER -->
 
@@ -392,6 +386,40 @@
 
 	<script type="text/javascript" src="js/highlight.js"></script>
 
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+    <script src="flipclock.js"></script>
+
+
+    <script type="text/javascript">
+        var clock;
+        
+        $(document).ready(function() {
+            var clock;
+
+            clock = $('.clock').FlipClock({
+                clockFace: 'DailyCounter',
+                autoStart: false,
+                callbacks: {
+                    stop: function() {
+                        $('.message').html('The clock has stopped!')
+                    }
+                }
+            });
+
+            var deadLine= "October 28 2018 09:00:00";
+            var first = new Date(deadLine);
+            var last = Date.now();
+            var remain = first-last;
+            remain /=1000;
+                    
+            clock.setTime(remain);
+            clock.setCountdown(true);
+            clock.start();
+
+        });
+    </script>
+
 		
 
 	<script type="text/javascript"> 
@@ -428,8 +456,6 @@
 
 	</script>
 
-
-<script src="countdown.js"></script> <!--countdown javascript-->
 	
 
 </body>
