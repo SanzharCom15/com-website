@@ -1,11 +1,45 @@
 /* Get the bourbon mixin from http://bourbon.io */
 /* Reset */
+.back{
+  background-color: #4682B4;
+}
+.back h1{
+  position: absolute;
+  top: 1%;
+  left: 4%;
+  font-size: 550%;
+  text-transform: uppercase;
+  font-family: "Helvetica";
+}
+.units{
+  margin-left: 56%;
+}
 .units li{
     display: inline;
     text-transform: uppercase;
     font-size: 140%;
-    
+
 }
+.units li:nth-child(1){
+  margin-left: 4%;
+}
+.units li:nth-child(2){
+  margin-left: 19%;
+}
+.units li:nth-child(3){
+  margin-left: 17%;
+}
+.units li:nth-child(4){
+  margin-left: 15%;
+}
+
+
+
+
+
+
+
+
 
 .flip-clock-wrapper * {
     -webkit-box-sizing: border-box;
@@ -43,10 +77,11 @@
   *zoom: 1; }
 
 /* Main */
-.flip-clock-wrapper {
+/*.flip-clock-wrapper {
   font: normal 11px "Helvetica Neue", Helvetica, sans-serif;
-  -webkit-user-select: none; }
-
+  -webkit-user-select: none; 
+  }
+*/
 .flip-clock-meridium {
   background: none !important;
   box-shadow: 0 0 0 !important;
@@ -93,6 +128,7 @@
   height: 100%;
   line-height: 87px;
   text-decoration: none !important;
+
 }
 
 .flip-clock-wrapper ul li:first-child {
@@ -190,7 +226,8 @@
   display: inline-block;
   position: relative;
   width: 20px;
-  height: 100px; }
+  height: 100px;
+   }
 
 .flip-clock-divider:first-child {
   width: 0; }
