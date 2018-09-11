@@ -26,6 +26,7 @@ h1{
   width: 10%;
   border-radius: 20px;
   box-sizing: border-box;
+  font-family: courier;
 }
 #clock{
   margin-left: 30%; 
