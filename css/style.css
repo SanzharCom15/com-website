@@ -1,5 +1,5 @@
 body { 
-	background: #f;
+	background: #fff;
 	height:150%;
 }
 
@@ -173,6 +173,7 @@ nav {
 	min-height: 600px;
 	padding-bottom:60px;
 	text-shadow: 1px 1px 1px #fff;
+
 }
 
 #mission {
@@ -539,4 +540,8 @@ transition:0.6s;
 float: left;
 margin: 0 20px 20px 0;
 opacity: 1;
+}
+
+#left-content{
+	background-image: url(../images/new/slider2.jpg);
 }
