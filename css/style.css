@@ -468,7 +468,7 @@ a:hover, a:focus, a:active {
   text-transform: uppercase;
   background-image:url("../images/logo2.png");
   background-repeat: no-repeat;
-  background-size: 85%;
+  background-size: 100%;
   top: 3px;
   left: 0px;
   position: relative;
