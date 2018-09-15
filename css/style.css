@@ -238,6 +238,7 @@ a:hover, a:focus, a:active {
   background: #ffffff;
   -webkit-transition: .3s all;
   transition: .3s all;
+  height: 80px;
 }
 
 @media screen and (max-width: 768px) {
@@ -457,12 +458,12 @@ a:hover, a:focus, a:active {
   text-transform: uppercase;
   background-image:url("../images/logo1.png");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 85%;
   top: 5px;
   left: 0px;
   position: relative;
-  width: 130px;
-  height: 75px;
+  width: 190px;
+  height: 80px;
   text-indent: -999999px;
   -webkit-transition: .2s all;
   transition: .2s all;
@@ -1117,11 +1118,11 @@ a:hover, a:focus, a:active {
 }
 
 .probootstrap-footer {
-  padding: 7em 0;
+  padding:0;
   padding-bottom: 0;
   background: #000000;
   color: rgba(255, 255, 255, 0.9);
-  display: none;
+  
 }
 
 .probootstrap-footer a {
