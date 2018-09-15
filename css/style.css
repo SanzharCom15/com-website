@@ -290,6 +290,7 @@ a:hover, a:focus, a:active {
 .probootstrap-navbar .navbar-toggle span.icon-bar {
   -webkit-transition: all 0.15s;
   transition: all 0.15s;
+
 }
 
 .probootstrap-navbar .navbar-toggle span:nth-child(2) {
@@ -355,7 +356,7 @@ a:hover, a:focus, a:active {
   }
 }
 
-.probootstrap-navbar .dropdown > a:before {
+.probootstrap-navbar .dropdown > a:before { /*dropdown-icon*/
   font-family: 'icomoon';
   speak: none;
   font-style: normal;
@@ -373,9 +374,10 @@ a:hover, a:focus, a:active {
   margin-top: -11px;
   content: "\e924";
   font-size: 20px;
-  color: rgba(0, 0, 0, 0.5);
+  color: #fff;
   -webkit-transition: .3s all;
   transition: .3s all;
+
 }
 
 @media screen and (max-width: 768px) {
@@ -475,7 +477,7 @@ a:hover, a:focus, a:active {
   text-indent: -999999px;
   -webkit-transition: .2s all;
   transition: .2s all;
-  color: white;
+  
   
 }
 .navbar-brand h1{
@@ -505,7 +507,7 @@ a:hover, a:focus, a:active {
 }
 
 .probootstrap-navbar .navbar-nav > li > a {
-  color: black;
+  color: #fff;
   font-size: 15px;
   position: relative;
   font-weight: 400;
@@ -521,11 +523,12 @@ a:hover, a:focus, a:active {
 }
 
 .probootstrap-navbar .navbar-nav > li > a:hover {
-  color: #0000CD;
+  color: white;
+
 }
 
 .probootstrap-navbar .navbar-nav > li > a:hover, .probootstrap-navbar .navbar-nav > li > a:focus, .probootstrap-navbar .navbar-nav > li > a:active {
-  color: #0000CD;
+  color: #fff;
 }
 
 .probootstrap-navbar .navbar-nav > li.open > a:hover, .probootstrap-navbar .navbar-nav > li.open > a:focus, .probootstrap-navbar .navbar-nav > li.open > a {
