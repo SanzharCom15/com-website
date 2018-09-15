@@ -239,6 +239,12 @@ a:hover, a:focus, a:active {
   -webkit-transition: .3s all;
   transition: .3s all;
   height: 80px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  
 }
 
 @media screen and (max-width: 768px) {
@@ -456,10 +462,10 @@ a:hover, a:focus, a:active {
   padding-bottom: 0 !important;
   font-size: 10px;
   text-transform: uppercase;
-  background-image:url("../images/logo1.png");
+  background-image:url("../images/logo2.png");
   background-repeat: no-repeat;
   background-size: 85%;
-  top: 5px;
+  top: 3px;
   left: 0px;
   position: relative;
   width: 190px;
