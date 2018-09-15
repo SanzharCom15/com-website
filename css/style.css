@@ -1121,6 +1121,7 @@ a:hover, a:focus, a:active {
   padding-bottom: 0;
   background: #000000;
   color: rgba(255, 255, 255, 0.9);
+  display: none;
 }
 
 .probootstrap-footer a {
