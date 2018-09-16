@@ -77,20 +77,46 @@ a:hover, a:focus, a:active {
   line-height: 64px;
   color: white;
   font-weight: 300;
-  position: absolute !important ;
-  top: 25% !important;
+  position: absolute ;
+  top: 30%;
+  left: 10%;
+  font-family: cursive;
 }
 
 @media screen and (max-width: 768px) {
   .hero-text-heading, .probootstrap-hero h1, .flexslider .probootstrap-heading {
-    font-size: 40px;
+    font-size: 170%;
     line-height: 1.5;
+    top: -40%;
+    left: 25%;  
   }
 }
 
 @media screen and (max-width: 480px) {
   .hero-text-heading, .probootstrap-hero h1, .flexslider .probootstrap-heading {
-    font-size: 30px;
+    font-size: 120%;
+    top: -15%;
+    left: 25%;
+
+  }
+}
+.paragraph{                         /*What is computer paragraph*/
+  color: #fff;
+  font-size: 120%;
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+.paragraph{                         /*What is computer paragraph*/
+  color: #fff;
+  font-size: 100%;
+  
+  }
+}
+
+@media screen and (max-width: 480px) {
+.paragraph{                         /*What is computer paragraph*/
+  color: #fff;
+  font-size: 70%;
   }
 }
 
@@ -468,7 +494,7 @@ a:hover, a:focus, a:active {
   text-transform: uppercase;
   background-image:url("../images/logo2.png");
   background-repeat: no-repeat;
-  background-size: 85%;
+  background-size: 100%;
   top: 3px;
   left: 0px;
   position: relative;
@@ -941,6 +967,19 @@ a:hover, a:focus, a:active {
   background: #49D292;
   color: #ffffff;
 }
+
+@media screen and (max-width: 480px) {
+.btn.btn-primary{
+  border: 1px solid #49D292;
+  background: #49D292;
+  color: #ffffff;         
+  padding: 1% !important;
+  font-size: 40%;
+  }
+}
+
+
+
 
 .btn.btn-primary:hover, .btn.btn-primary:active, .btn.btn-primary:focus {
   background: #51d497;
