@@ -600,6 +600,7 @@ textarea.input {
 
 .article .article-title > a {
 	font-weight:700;
+	color: red;
 }
 
 .article .article-meta {
@@ -624,6 +625,7 @@ textarea.input {
 \*------------------------------------*/
 .article.thumb-article {
 	margin-bottom:0px;
+	background-color: gray;
 }
 
 .article.thumb-article .article-img {
