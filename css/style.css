@@ -1031,7 +1031,7 @@ a:hover, a:focus, a:active {
 }
 
 .probootstrap-section.probootstrap-section-colored {
-  background: #6a41ed;
+  background-image:url("../images/news/careerday.jpg");
 }
 
 .probootstrap-section.probootstrap-section-colored .section-heading h2 {
@@ -2103,6 +2103,11 @@ a:hover, a:focus, a:active {
 .probootstrap-animate {
   opacity: 0;
   visibility: hidden;
+}
+.probootstrap-video{
+  width: 100%;
+  margin: 5% 0 0 10%;
+  border-radius: 10px;
 }
 
 .modal .modal-content {
