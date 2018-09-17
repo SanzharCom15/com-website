@@ -2490,11 +2490,11 @@ a:hover, a:focus, a:active {
   }
 }
 
-.proboostrap-clients .client-logo {
+proboostrap-clients .client-logo {
   margin-bottom: 30px;
 }
 
-@media screen and (max-width: 768px) {
+media screen and (max-width: 768px) {
   .proboostrap-clients .client-logo {
     margin-bottom: 30px;
   }
