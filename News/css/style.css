@@ -36,6 +36,7 @@ body {
 	color:#2C2C2C;
 	font-size:15px;
 	font-weight:300;
+
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -600,7 +601,7 @@ textarea.input {
 
 .article .article-title > a {
 	font-weight:700;
-	color: red;
+	color: gray;
 }
 
 .article .article-meta {
@@ -625,7 +626,7 @@ textarea.input {
 \*------------------------------------*/
 .article.thumb-article {
 	margin-bottom:0px;
-	background-color: gray;
+	
 }
 
 .article.thumb-article .article-img {
