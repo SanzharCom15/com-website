@@ -1031,7 +1031,7 @@ a:hover, a:focus, a:active {
 }
 
 .probootstrap-section.probootstrap-section-colored {
-  background-image:url("../images/news/careerday.jpg");
+  background-color:  #F5F5DC;
   background-size: 100%;
   background-attachment: fixed;
   
@@ -2490,11 +2490,11 @@ a:hover, a:focus, a:active {
   }
 }
 
-proboostrap-clients .client-logo {
+.proboostrap-clients .client-logo {
   margin-bottom: 30px;
 }
 
-media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .proboostrap-clients .client-logo {
     margin-bottom: 30px;
   }
