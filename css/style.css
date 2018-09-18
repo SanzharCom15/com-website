@@ -1046,9 +1046,9 @@ a:hover, a:focus, a:active {
 }
 
 .probootstrap-section.probootstrap-section-colored {
-  background-color:  #F5F5DC;
-  background-size: 100%;
+  background-image:url(../images/image2.jpg);
   background-attachment: fixed;
+  background-size: cover; 
   
   
 }
