@@ -1092,8 +1092,9 @@ a:hover, a:focus, a:active {
 
 .section-heading h1 {
   color: red;
-  font-family: 'Times New Roman', Times, serif; 
-    font-style: italic !important;
+  font-family: 'Times New Roman', Times, serif !important; 
+  font-style: italic !important;
+  font-weight: 30px;
 }
 
 @media screen and (max-width: 768px) {
