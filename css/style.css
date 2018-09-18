@@ -1,4 +1,4 @@
-
+ 
 @font-face {
   font-family: 'icomoon';
   src: url("../fonts/icomoon/icomoon.eot?1z9v6x");
@@ -1035,9 +1035,7 @@ a:hover, a:focus, a:active {
 .probootstrap-section.probootstrap-section-colored {
   background-color:  #F5F5DC;
   background-size: 100%;
-  background-attachment: fixed;
-  
-  
+  background-attachment: fixed; 
 }
 
 .probootstrap-section.probootstrap-section-colored .section-heading h2 {
@@ -2109,6 +2107,7 @@ a:hover, a:focus, a:active {
 .probootstrap-animate {
   opacity: 0;
   visibility: hidden;
+  width: 50%;
 }
 .probootstrap-video{
   width: 100%;
