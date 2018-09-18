@@ -1050,6 +1050,7 @@ a:hover, a:focus, a:active {
 
 .probootstrap-section.probootstrap-section-colored .section-heading h2 {
   color: white;
+
 }
 
 .probootstrap-section.probootstrap-section-colored .section-heading p {
@@ -1087,7 +1088,8 @@ a:hover, a:focus, a:active {
 }
 
 .section-heading h1 {
-  color: #ffffff;
+  color: red;
+  font-family: Papyrus, fantasy; font-size: 60px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; } h3 { font-family: Papyrus, fantasy; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } p { font-family: Papyrus, fantasy; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } blockquote { font-family: Papyrus, fantasy; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } pre { font-family: Papyrus, fantasy; font-size: 60px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5714px !important;
 }
 
 @media screen and (max-width: 768px) {
