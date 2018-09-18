@@ -529,7 +529,7 @@ a:hover, a:focus, a:active {
 
 @media screen and (max-width: 480px) {
   .probootstrap-navbar .navbar-brand {
-    top: 6px !important;
+    top: 6px !important;   
   }
 }
 
@@ -538,16 +538,9 @@ a:hover, a:focus, a:active {
     position: relative;
     width: 160px;
     height: 43px;
-<<<<<<< HEAD
-<<<<<<< HEAD
-    background: url(../images/logo2.png) no-repeat left 100%;
-=======
     background: url(images/logo2.png) no-repeat left 100%;
->>>>>>> 62c4389b121b668dd116269103f77d34b1309056
-=======
-    background: url(images/logo2.png) no-repeat left 100%;
->>>>>>> 62c4389b121b668dd116269103f77d34b1309056
     background-size: cover;
+
   }
 }
 
@@ -1053,9 +1046,14 @@ a:hover, a:focus, a:active {
 }
 
 .probootstrap-section.probootstrap-section-colored {
+<<<<<<< HEAD
   background-color: blue;
   background-size: 20%;
+=======
+  background-image:url(../images/image2.jpg);
+>>>>>>> 122f949b6c4d012cd5457a8a24936735ab09df4a
   background-attachment: fixed;
+  background-size: cover; 
   
   
 }
