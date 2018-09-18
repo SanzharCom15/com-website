@@ -3229,3 +3229,24 @@ mfp-with-zoom .mfp-container,
   color: #008B8B;
   transition: 200ms ease;
 }
+
+
+
+
+
+
+.teachers-info {
+ 
+  background-color:#008B8B;
+  border-radius: 10px;
+  color: white !important;
+   padding: 7px 0px;
+  
+}
+
+.teachers-info a{
+  color: white !important;
+  text-indent: none;
+ 
+ 
+}
