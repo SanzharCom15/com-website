@@ -20,7 +20,7 @@
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Paytone+One" />
     <link rel="stylesheet" href="css/styles-merged.css"> <!--code for Navbar-->
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/styleTyped.css">
+    
 
     <!--[if lt IE 9]>
       <script src="js/vendor/html5shiv.min.js"></script>
@@ -66,40 +66,45 @@
 
       
 
-      <nav class="navbar navbar-default probootstrap-navbar">
+      <nav id="navbar" class="navbar navbar-default probootstrap-navbar" >
         <div class="container">
           <div class="navbar-header">
-            <div class="btn-more js-btn-more visible-xs">
-              <a href="#"><i class="icon-dots-three-vertical "></i></a>
-            </div>
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false" aria-controls="navbar">
               <span class="sr-only">Toggle navigation</span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="index.html" title="ProBootstrap:Enlight">Enlight</a>
+            <a class="navbar-brand" href="index.html"></a>
           </div>
 
           <div id="navbar-collapse" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
-              <li class="active"><a href="index.html">Home</a></li>
+              <li class="active"><a href="index.html" >Home</a></li>
                 <li class="dropdown">
-                <a href="#" data-toggle="dropdown" class="dropdown-toggle" style="color: #49d192">Department</a>
+                <a href="#" data-toggle="dropdown" class="dropdown-toggle">Department</a>
                 <ul class="dropdown-menu">
-                  <li><a href="News/new.html">News</a></li>
+                  <li><a href="News/news.html">News</a></li>
                   <li><a href="error.html">Developments</a></li>
                   <li><a href="http://ic.iaau.edu.kg/">Exchange Programs</a></li>
                   <li><a href="error.html">Prospective Students</a></li>
                   <li><a href="error.html">Alumni</a></li>
-                  <li><a href="contact.html">Contact Us</a></li>
+                  <li><a href="contact/contact.html">Contact Us</a></li>
                   
-                 
-                  <li><a href="news.html">Info</a></li>
+                  <!-- <li class="dropdown-submenu dropdown">
+                    <a href="#" data-toggle="dropdown" class="dropdown-toggle"><span>Sub Menu</span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Second Level Menu</a></li>
+                      <li><a href="#">Second Level Menu</a></li>
+                      <li><a href="#">Second Level Menu</a></li>
+                      <li><a href="#">Second Level Menu</a></li>
+                    </ul>
+                  </li>-->
+                  <li><a href="info.html">Info</a></li>
                 </ul>
               </li>
               <li class="dropdown">
-                <a href="#" data-toggle="dropdown" class="dropdown-toggle" style="color: #49d192">Bachelor Program</a>
+                <a href="#" data-toggle="dropdown" class="dropdown-toggle">Bachelor Program</a>
                 <ul class="dropdown-menu">
                   <li><a href="courses.html">Courses</a></li>
                   <li><a href="courses.html">Research</a></li>
@@ -109,25 +114,41 @@
                   <li><a href="gallery.html">Admission</a></li>
                   <li><a href="gallery.html">FAQ</a></li>
                   
-                  
+                  <!-- <li class="dropdown-submenu dropdown">
+                    <a href="#" data-toggle="dropdown" class="dropdown-toggle"><span>Sub Menu</span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Second Level Menu</a></li>
+                      <li><a href="#">Second Level Menu</a></li>
+                      <li><a href="#">Second Level Menu</a></li>
+                      <li><a href="#">Second Level Menu</a></li>
+                    </ul>
+                  </li>-->
                   
                 </ul>
               </li>
               <li class="dropdown">
-                <a href="#" data-toggle="dropdown" class="dropdown-toggle" style="color: #49d192">Master Degree</a>
+                <a href="#" data-toggle="dropdown" class="dropdown-toggle">Master Degree</a>
                 <ul class="dropdown-menu">
                   <li><a href="about.html">Overview</a></li>
                   <li><a href="courses.html">Program</a></li>
                   <li><a href="course-single.html">Graduate Research</a></li>
                   <li><a href="gallery.html">Admission</a></li>
                   
-                  
+                  <!-- <li class="dropdown-submenu dropdown">
+                    <a href="#" data-toggle="dropdown" class="dropdown-toggle"><span>Sub Menu</span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Second Level Menu</a></li>
+                      <li><a href="#">Second Level Menu</a></li>
+                      <li><a href="#">Second Level Menu</a></li>
+                      <li><a href="#">Second Level Menu</a></li>
+                    </ul>
+                  </li>-->
                   
                 </ul>
               </li>
                  
               <li class="dropdown">
-                <a href="#" data-toggle="dropdown" class="dropdown-toggle" style="color: #49d192">Calendar</a>
+                <a href="#" data-toggle="dropdown" class="dropdown-toggle" >Calendar</a>
                 <ul class="dropdown-menu">
                   <li><a href="about.html">Academic Calendar</a></li>
                   <li><a href="courses.html">Schedule of Lectures</a></li>
@@ -137,15 +158,23 @@
                   
                </ul>
               </li>
-            <li><a href="teachers.html" style="color: #49d192">Faculty</a></li>
+            <li><a href="teachers.html" >Faculty</a></li>
               <li class="dropdown">
-                <a href="#" data-toggle="dropdown" class="dropdown-toggle" style="color: #49d192">Labs</a>
+                <a href="#" data-toggle="dropdown" class="dropdown-toggle">Labs</a>
                 <ul class="dropdown-menu">
                   <li><a href="about.html">Policy & Regulations</a></li>
                   <li><a href="courses.html">Software</a></li>
-                  <li><a href="contact.html">Contacts</a></li>
+                  <li><a href="contact/contact.html">Contacts</a></li>
                   
-                  
+                  <!-- <li class="dropdown-submenu dropdown">
+                    <a href="#" data-toggle="dropdown" class="dropdown-toggle"><span>Sub Menu</span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Second Level Menu</a></li>
+                      <li><a href="#">Second Level Menu</a></li>
+                      <li><a href="#">Second Level Menu</a></li>
+                      <li><a href="#">Second Level Menu</a></li>
+                    </ul>
+                  </li>-->
                   
                 </ul>
               </li>
@@ -155,7 +184,7 @@
       </nav>
       
       <!--<section class="probootstrap-section probootstrap-section-colored">
-        <!--<div class="container" >
+        <!<div class="container" >
           <div class="row">
             <div class="col-md-12 text-left section-heading probootstrap-animate">
               <h1>Our Teachers</h1>
@@ -164,7 +193,7 @@
         </div>
       </section>
 
-      <!--<section class="probootstrap-section">
+      <!<section class="probootstrap-section">
         <div class="container">
           <div class="row">
             <div class="col-md-12">
@@ -176,20 +205,19 @@
                 </div>
                 <div class="probootstrap-image probootstrap-animate" style="background-image: url(img/slider_3.jpg)">
                   <a href="https://vimeo.com/45830194" class="btn-video popup-vimeo"><i class="icon-play3"></i></a>
-                </div>-->
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </section>
+      </section>-->
 
 
       
       
-      <section class="probootstrap-section">
-        <div class="container">
+     
           
-
+  <div style="padding: 120px 50px 0 50px;">
           <div class="row">
             <div class="col-md-3 col-sm-6">
               <div class="probootstrap-teacher text-center probootstrap-animate">
@@ -405,6 +433,7 @@
               </div>
             </div>
           </div>
+          </div>
 
           <!--<div class="row">
             <div class="col-md-3 col-sm-6">
@@ -498,7 +527,7 @@
               <div class="probootstrap-footer-widget">
                 <h3>About The School</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro provident suscipit natus a cupiditate ab minus illum quaerat maxime inventore Ea consequatur consectetur hic provident dolor ab aliquam eveniet alias</p>
-                <!--<h3>Social</h3>
+                <!<h3>Social</h3>
                 <ul class="probootstrap-footer-social">
                   <li><a href="#"><i class="icon-twitter"></i></a></li>
                   <li><a href="#"><i class="icon-facebook"></i></a></li>
@@ -533,7 +562,7 @@
             </div>
            
           </div>
-          <!-- END row 
+      
           
         </div>-->
 
@@ -559,17 +588,9 @@
 
     <script src="js/scripts.min.js"></script>
     <script src="js/main.min.js"></script>
-    <script src="js/custom.js"></script>
-    <script type="text/javascript" src="js/typed.js"></script>
+    <script src="js/scroll.js"></script>
+    
 
-    <script type="text/javascript">
-        var typed = new Typed(".type", {
-          strings: ["<span style='color:#9eaac7'><b>System.</b></span><span style='color:violet'><b>out</b></span><span style='color:#9eaac7'><b>.println</b></span><span style='color:#9eaac7'><b>(</b></span><span style='color:#698857'><b>&#34; WELCOME TO COMPUTER SCIENCE DEPARTMENT &#34;</b></span><span style='color:#9eaac7'><b>)</b></span><span style='color:#ce7827'><b>;</b></span>"],
-          typeSpeed : 20,
-          
-          
-        });
-    </script>
 
   </body>
 </html>
