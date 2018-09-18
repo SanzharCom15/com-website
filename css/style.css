@@ -977,16 +977,16 @@ a:hover, a:focus, a:active {
   line-height: 1.5;
 }
 
-.btn.btn-primary {
-  border: 1px solid #49D292;
-  background: #49D292;
+.btn.btn-primary {         
+  border: 1px solid #008B8B;
+  background: #008B8B;
   color: #ffffff;
 }
 
 @media screen and (max-width: 480px) {
 .btn.btn-primary{
-  border: 1px solid #49D292;
-  background: #49D292;
+  border: 1px solid #008B8B;
+  background: #008B8B;
   color: #ffffff;         
   padding: 1% !important;
   font-size: 40%;
