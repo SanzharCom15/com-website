@@ -1,4 +1,4 @@
- 
+
 @font-face {
   font-family: 'icomoon';
   src: url("../fonts/icomoon/icomoon.eot?1z9v6x");
@@ -1023,6 +1023,7 @@ a:hover, a:focus, a:active {
 .probootstrap-section {
   padding: 7em 0;
   position: relative;
+
 }
 
 .probootstrap-section.probootstrap-section-sm {
@@ -1399,6 +1400,7 @@ a:hover, a:focus, a:active {
   position: relative;
   top: 0;
   margin-bottom: 20px;
+  background-color: white !important;
 }
 
 .probootstrap-teacher .media {
@@ -2997,7 +2999,7 @@ a:hover, a:focus, a:active {
 }
 
 /* This block of CSS adds opacity transition to background */
-.mfp-with-zoom .mfp-container,
+mfp-with-zoom .mfp-container,
 .mfp-with-zoom.mfp-bg {
   opacity: 0;
   -webkit-backface-visibility: hidden;
