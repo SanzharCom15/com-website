@@ -17,6 +17,8 @@ body {
   line-height: 28px;
   font-size: 15px;
   font-family: "Raleway", Arial, sans-serif;
+  background-image: url(../images/pattern2.jpg)!important;
+
 }
 
 h1, h2, h3, h4, h5, h6 {
