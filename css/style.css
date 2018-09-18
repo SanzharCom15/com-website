@@ -27,6 +27,9 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", Arial, sans-serif;
   font-weight: 300;
   margin: 0 0 30px 0;
+  font-weight: bold;
+  font-family:  "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+
 }
 
 h1 {
@@ -1413,6 +1416,15 @@ a:hover, a:focus, a:active {
 .probootstrap-teacher .text h3 {
   font-size: 20px;
   margin: 0 0 0px 0;
+  font-weight: bold;
+  font-family:  "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+}
+
+.teacher-top h2{
+  color: white;
+  font-weight: bold;
+  font-family:  "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+
 }
 
 .probootstrap-teacher .text p {
@@ -1823,6 +1835,7 @@ a:hover, a:focus, a:active {
   -webkit-box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.1);
   box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.1);
   margin-bottom: 40px;
+  background-color: #F5F5F5;
 }
 
 .probootstrap-service-2 .image {
@@ -3188,4 +3201,31 @@ mfp-with-zoom .mfp-container,
     float: none;
     width: 100%;
   }
+}
+
+
+
+/* NEW ADDED CSS CODES (CUSTOM) */
+
+.main h1{
+  margin-top: 8%;
+  text-align: center;
+  color: #fff;
+} 
+.right{
+  float: right;
+  margin: 0 8% 0 0 ;
+}
+.left{
+  margin: 0 0 0 8% ;
+}
+.left,.right, a{
+  text-decoration: none;
+  color: white;
+  font-size: 110%;
+}
+.left,.right, a:hover{
+  text-decoration: none;
+  color: #008B8B;
+  transition: 200ms ease;
 }
