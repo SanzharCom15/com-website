@@ -355,15 +355,8 @@ a:hover, a:focus, a:active {
   padding-right: 0;
   margin-left: 15px;
   margin-right: 15px;
-<<<<<<< HEAD
-<<<<<<< HEAD
+  color: #49d192 !important;
 
-=======
-  color: #49d192 !important;
->>>>>>> 62c4389b121b668dd116269103f77d34b1309056
-=======
-  color: #49d192 !important;
->>>>>>> 62c4389b121b668dd116269103f77d34b1309056
 }
 
 @media screen and (max-width: 768px) {
