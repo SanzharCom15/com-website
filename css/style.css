@@ -1413,6 +1413,15 @@ a:hover, a:focus, a:active {
 .probootstrap-teacher .text h3 {
   font-size: 20px;
   margin: 0 0 0px 0;
+  font-weight: bold;
+  font-family:  "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+}
+
+.teacher-top h2{
+  color: white;
+  font-weight: bold;
+  font-family:  "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+
 }
 
 .probootstrap-teacher .text p {
