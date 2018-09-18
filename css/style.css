@@ -1046,22 +1046,14 @@ a:hover, a:focus, a:active {
 }
 
 .probootstrap-section.probootstrap-section-colored {
-<<<<<<< HEAD
   background-color:  #F5F5DC;
   background-size: 100%;
   background-attachment: fixed; 
-=======
-<<<<<<< HEAD
   background-color: blue;
   background-size: 20%;
-=======
   background-image:url(../images/image2.jpg);
->>>>>>> 122f949b6c4d012cd5457a8a24936735ab09df4a
   background-attachment: fixed;
   background-size: cover; 
-  
-  
->>>>>>> eba7b46a7a89fc91ab63ad8b6b76025f28b7e687
 }
 
 .probootstrap-section.probootstrap-section-colored .section-heading h2 {
