@@ -1047,7 +1047,6 @@ a:hover, a:focus, a:active {
   background-attachment: fixed; 
   background-color: blue;
   background-size: 20%;
-  background-image:url(../images/image2.jpg);
   background-attachment: fixed;
   background-size: cover; 
 }
