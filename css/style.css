@@ -1,4 +1,4 @@
- 
+
 @font-face {
   font-family: 'icomoon';
   src: url("../fonts/icomoon/icomoon.eot?1z9v6x");
@@ -17,6 +17,8 @@ body {
   line-height: 28px;
   font-size: 15px;
   font-family: "Raleway", Arial, sans-serif;
+  background-image: url(../images/pattern2.jpg)!important;
+
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -1021,6 +1023,7 @@ a:hover, a:focus, a:active {
 .probootstrap-section {
   padding: 7em 0;
   position: relative;
+
 }
 
 .probootstrap-section.probootstrap-section-sm {
@@ -1041,11 +1044,8 @@ a:hover, a:focus, a:active {
 }
 
 .probootstrap-section.probootstrap-section-colored {
-  background-color:  #F5F5DC;
-  background-size: 100%;
-  background-attachment: fixed; 
-  background-color: blue;
-  background-size: 20%;
+  
+  background-color: transparent;
   background-attachment: fixed;
   background-size: cover; 
 }
@@ -1397,6 +1397,7 @@ a:hover, a:focus, a:active {
   position: relative;
   top: 0;
   margin-bottom: 20px;
+  background-color: white !important;
 }
 
 .probootstrap-teacher .media {
@@ -2995,7 +2996,7 @@ a:hover, a:focus, a:active {
 }
 
 /* This block of CSS adds opacity transition to background */
-.mfp-with-zoom .mfp-container,
+mfp-with-zoom .mfp-container,
 .mfp-with-zoom.mfp-bg {
   opacity: 0;
   -webkit-backface-visibility: hidden;
