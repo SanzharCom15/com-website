@@ -12,13 +12,11 @@ html {
 }
 
 body {
-  background:gray;
+  background:#fff;
   color: #8b8e94;
   line-height: 28px;
   font-size: 15px;
   font-family: "Raleway", Arial, sans-serif;
-  
-
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -259,11 +257,12 @@ a:hover, a:focus, a:active {
   background: transparent;
   -webkit-transition: .3s all;
   transition: .3s all;
-  position: absolute;
+  position: fixed;
   z-index: 3;
   top: 0;
   left: 0;
   right: 0;
+  transition: 500ms ease;
   
   
   /*height: 80px;
