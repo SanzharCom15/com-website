@@ -1052,6 +1052,7 @@ a:hover, a:focus, a:active {
 
 .probootstrap-section.probootstrap-section-colored .section-heading h2 {
   color: white;
+
 }
 
 .probootstrap-section.probootstrap-section-colored .section-heading p {
@@ -1089,7 +1090,9 @@ a:hover, a:focus, a:active {
 }
 
 .section-heading h1 {
-  color: #ffffff;
+  color: red;
+  font-family: 'Times New Roman', Times, serif; 
+    font-style: italic !important;
 }
 
 @media screen and (max-width: 768px) {
