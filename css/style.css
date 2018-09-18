@@ -1,4 +1,4 @@
-
+ 
 @font-face {
   font-family: 'icomoon';
   src: url("../fonts/icomoon/icomoon.eot?1z9v6x");
@@ -279,7 +279,7 @@ a:hover, a:focus, a:active {
     
     -webkit-box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.1);
     box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.1);
-    background-color: red;
+    background-color: #ffffff;
     position:  relative;
   }
 }
@@ -1046,11 +1046,14 @@ a:hover, a:focus, a:active {
 }
 
 .probootstrap-section.probootstrap-section-colored {
+  background-color:  #F5F5DC;
+  background-size: 100%;
+  background-attachment: fixed; 
+  background-color: blue;
+  background-size: 20%;
   background-image:url(../images/image2.jpg);
   background-attachment: fixed;
   background-size: cover; 
-  
-  
 }
 
 .probootstrap-section.probootstrap-section-colored .section-heading h2 {
@@ -2122,6 +2125,7 @@ a:hover, a:focus, a:active {
 .probootstrap-animate {
   opacity: 0;
   visibility: hidden;
+  width: 50%;
 }
 .probootstrap-video{
   width: 100%;
