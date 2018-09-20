@@ -3212,6 +3212,9 @@ mfp-with-zoom .mfp-container,
   text-align: center;
   color: #fff;
 } 
+.main h3,h2{
+  color: #fff;
+}
 .right{
   float: right;
   margin: 0 8% 0 0 ;
@@ -3229,6 +3232,8 @@ mfp-with-zoom .mfp-container,
   color: #008B8B;
   transition: 200ms ease;
 }
+
+
 
 
 @media screen and (max-width: 768px) {
