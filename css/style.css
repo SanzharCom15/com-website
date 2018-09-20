@@ -3241,7 +3241,15 @@ mfp-with-zoom .mfp-container,
     font-size: 70%;
   }
 }
-
+.download{
+  float: right;
+  cursor: pointer;
+  margin-top: 20px;
+  color: gray;
+}
+.fa{
+  font-size: 25px;
+}
 
 
 
