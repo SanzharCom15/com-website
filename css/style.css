@@ -3283,6 +3283,12 @@ mfp-with-zoom .mfp-container,
   text-indent: none;
 }
 
+
+
+
+
+
+
 .laboratory{
 	padding-bottom: 3%;
 }
@@ -3320,6 +3326,11 @@ mfp-with-zoom .mfp-container,
 
 
 
+
+
+
+
+
 .labs-rules{
   margin-top: 8%;
   padding: 0 40px;
@@ -3328,3 +3339,11 @@ mfp-with-zoom .mfp-container,
 .labs-rules{
   color: white !important;
 }
+
+
+
+.labs-software{
+  margin-top: 8%;
+  text-align: center;
+}
+
