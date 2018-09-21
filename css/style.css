@@ -3314,6 +3314,17 @@ mfp-with-zoom .mfp-container,
 }
 
 .labratory strong{
-  color: white;
+  
   padding-bottom: 0px;
+}
+
+
+
+.labs-rules{
+  margin-top: 8%;
+  padding: 0 40px;
+}
+
+.labs-rules{
+  color: white !important;
 }
