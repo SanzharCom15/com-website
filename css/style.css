@@ -3285,3 +3285,38 @@ mfp-with-zoom .mfp-container,
  
  
 }
+
+
+
+.laboratory h1{
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 0px;
+}
+
+.labs-content{
+  background-color: #008B8B;
+  margin-top: 5%;
+}
+.labs-content img{
+  width: 30%;
+  float: left;
+}
+
+.labs-content p{
+  float: right;
+  margin-left: 5%;
+  color: white;
+}
+
+
+.labs-content h5{
+  color: white;
+  font-size: 25px;
+}
+
+.labratory strong{
+  color: white;
+  padding-bottom: 0px;
+}
