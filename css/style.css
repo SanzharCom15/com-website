@@ -3346,4 +3346,21 @@ mfp-with-zoom .mfp-container,
   margin-top: 8%;
   text-align: center;
 }
-
+.software-row{
+	width: 25%;
+	display: inline-table;
+	border: 1px solid #ffffff;
+	margin-left: 6%;
+	text-align: center;
+}
+.software-row span{
+	display: block;
+	text-align: ceer;
+	border: 1px solid #ffffff;
+	padding: 10px;
+	color: #008B8B;
+}
+.software-row h2{
+	color: white;
+	text-align: nter;
+}
