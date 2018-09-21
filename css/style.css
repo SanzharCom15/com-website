@@ -537,7 +537,7 @@ a:hover, a:focus, a:active {
     top: -10px !important;
     background-position: left 100%;
     background-size: 50%;
-  	background-image:url("../images/logo1.png");
+  	background-image:url("../images/logo2.png");
   background-repeat: no-repeat;
   }
 }
@@ -545,7 +545,7 @@ a:hover, a:focus, a:active {
 @media screen and (max-width: 480px) {
   .probootstrap-navbar .navbar-brand {
     top: -15px !important;   
-    background-image:url("../images/logo1.png");
+    background-image:url("../images/logo2.png");
   background-repeat: no-repeat;
   }
 }
