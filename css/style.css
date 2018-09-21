@@ -79,6 +79,7 @@ a:hover, a:focus, a:active {
   top: 30%;
   left: 10%;
   font-family: cursive;
+	
 }
 
 @media screen and (max-width: 768px) {
@@ -92,9 +93,9 @@ a:hover, a:focus, a:active {
 
 @media screen and (max-width: 480px) {
   .hero-text-heading, .probootstrap-hero h1, .flexslider .probootstrap-heading {
-    font-size: 120%;
-    top: -15%;
-    left: 25%;
+    font-size: 140%;
+    top: -25%;
+    left: 20%;
 
   }
 }
@@ -115,6 +116,7 @@ a:hover, a:focus, a:active {
 .paragraph{                         /*What is computer paragraph*/
   color: #fff;
   font-size: 70%;
+  margin-top: -60px;
   }
 }
 
@@ -287,9 +289,19 @@ a:hover, a:focus, a:active {
     -webkit-box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.1);
     box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.1);
     position: relative;
+    background-color: #ffffff;
   }
 }
-
+@media screen and (max-width: 480px) {
+  .probootstrap-navbar {
+    
+   background: white;
+    -webkit-box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.1);
+    position: relative;
+    background-color:#ffffff;
+  }
+}
 
 .probootstrap-navbar .btn-more {
   position: absolute;
@@ -505,12 +517,12 @@ a:hover, a:focus, a:active {
   text-transform: uppercase;
   background-image:url("../images/logo1.png");
   background-repeat: no-repeat;
-  background-size: 80%;
+  background-size: 70%;
   top: 3px;
   left: 0px;
   position: relative;
   width: 190px;
-  height: 80px;
+  height: 75px;
   text-indent: -999999px;
   -webkit-transition: .2s all;
   transition: .2s all;
@@ -522,14 +534,15 @@ a:hover, a:focus, a:active {
 }
 @media screen and (max-width: 768px) {
   .probootstrap-navbar .navbar-brand {
-    top: 5px !important;
+    top: -10px !important;
     background-position: left 100%;
+    background-size: 50%;
   }
 }
 
 @media screen and (max-width: 480px) {
   .probootstrap-navbar .navbar-brand {
-    top: 6px !important;   
+    top: -15px !important;   
   }
 }
 
@@ -989,7 +1002,8 @@ a:hover, a:focus, a:active {
   background: #008B8B;
   color: #ffffff;         
   padding: 1% !important;
-  font-size: 40%;
+  font-size: 60%;
+  margin-top: -10px !important;
   }
 }
 
