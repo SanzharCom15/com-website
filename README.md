@@ -4,6 +4,7 @@ com.iaau.edu.kg
 - Team-Leader Kurmanbekova Elmira
 - Front-end developer Sanzhar Zhenishbekuulu
 - Designer Edil Kamchybekov
+- Front-end developer Askar Baiasov 
 # Navigation schema
 - Home   Department             Bachel Program       Master Degree          Calendar             
          ↳ `News                ↳ Courses            ↳ Overview             ↳ Academic Calendar  
